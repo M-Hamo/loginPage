@@ -24,19 +24,7 @@ const users = [
     }
 ];
 
-//now will validate...
-// for (let x of users) {
-//     if (x.name == username && x.pass == password) {
-//         alert('accept');
-//     }
-// }
-// function displayDate() {
-    
-// }
 
-// users.forEach(element => {
-//    element.addEventListener("click", displayDate); 
-// });
 button.onclick = () => {
     let username = document.getElementById('username').value;
     let password = document.getElementById('password').value;
@@ -45,7 +33,7 @@ button.onclick = () => {
     for (var x of users) {
         if (x.name == username && x.pass == password) {
             div.innerHTML = '<br><p> you can Go ' + username + '..</p>';
-            return;//stop here mother fuckr 
+            return; //stop here mother fuckr 
         }
     }
      if(x.username != username) {
