@@ -151,7 +151,7 @@ a:hover{
     outline:none;
     border: none;
     background-image: linear-gradient(to right, #32be8f, #38439f, #32be8f);
-    cursor: pointer;
+    cursor:pointer ;
     color: #fff;
     text-transform: uppercase;
     font-family: 'Poppins',sans-serif;
@@ -162,13 +162,15 @@ a:hover{
     background-position: right;
 }
 #output{
+    
     position: absolute;
     float: left;
     bottom: 10px;
     width: 300px;
     height: 200px;
-    background-color:rgb(179, 197, 235);
+    background-color:rgb(255, 255, 255);
     border-radius: 25px;
+    border: 2px solid rgb(77, 72, 72);
     visibility: hidden;
     font-family: 'Poppins',sans-serif;
     background-size: 250%;
@@ -177,7 +179,7 @@ a:hover{
     align-items: center;
     text-align: center;
     color: #38d39f;
-        
+    background-image: url(".img/message.svg");    
 }
 @media screen and (max-width:1050px){
     .container{
