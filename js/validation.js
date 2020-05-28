@@ -48,7 +48,6 @@ button.onclick = () => {
                 div.innerHTML = '<p> This username not Exist in system ! </p>'
              return;
             }
-    }
 };
 
 
