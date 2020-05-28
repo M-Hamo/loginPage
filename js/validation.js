@@ -33,9 +33,24 @@ button.onclick = () => {
     for (var x of users) {
         for ( x of users) {
                 if (x.name == username && x.pass == password) {
-                    div.innerHTML = '<p> you can Go ' + username + '..</p>';
-                    return; //stop here mother fuckr 
+                    if (username=='soso') {
+                        div.innerHTML = '<p> you can Go baby' + username + '..</p>';
+                        return; //stop here mother fuckr
+                    }
+                    else if (username == 'hema') {
+                        div.innerHTML = "<p> If you leave me "+ username + ", I will get lost ..</p>";
+                        return; 
+                    }
+                    else if (username == 'noga') {
+                        div.innerHTML = "<p> this Lady she cared me 9 months and i love here so match 'noga' "
+                        return;
+                        }
+                    else if (username == 'hamo'){
+                        div.innerHTML = "<p> That's my fucken name <br>-_- " + username + " </p>"
+                        return;
+                    }
                 }
+                
         }
     }
          for ( x of users) {
@@ -45,7 +60,7 @@ button.onclick = () => {
         }
         }
          if(x.username != username) {
-                div.innerHTML = '<p> This username not Exist in system ! </p>'
+                div.innerHTML = '<p> This username not Exist in our system ! </p>'
              return;
             }
 };

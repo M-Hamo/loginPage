@@ -178,9 +178,9 @@ a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: #07791a;
-    background-image: url(".img/message.svg");    
+      
 }
 @media screen and (max-width:1050px){
     .container{
@@ -219,6 +219,6 @@ a:hover{
         left: 42%;
         width: 150px;
         height: 100px;
-        font-size: 25px;
+        font-size: 10px;
     }
 }
