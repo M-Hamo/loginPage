@@ -34,15 +34,15 @@ button.onclick = () => {
         for ( x of users) {
                 if (x.name == username && x.pass == password) {
                     if (username=='soso') {
-                        div.innerHTML = '<p> you can Go baby' + username + '..</p>';
+                        div.innerHTML = '<p> My fucken love <span style="color:#e226e9;"> SOSO</span> , God brings us together longevity.</p>';
                         return; //stop here mother fuckr
                     }
                     else if (username == 'hema') {
-                        div.innerHTML = "<p> If you leave me "+ username + ", I will get lost ..</p>";
+                        div.innerHTML = "<p> If you leave me "+ username + ", I will get lost. <span style='color: #e9243e;'> My brother</span></p>";
                         return; 
                     }
                     else if (username == 'noga') {
-                        div.innerHTML = "<p> this Lady she cared me 9 months and i love here so match 'noga' "
+                        div.innerHTML = "<p> this Lady she cared me 9 months and i love here so match <span style='color:#e226e9;'> ' noga ' </span> .</p>"
                         return;
                         }
                     else if (username == 'hamo'){
@@ -55,7 +55,7 @@ button.onclick = () => {
     }
          for ( x of users) {
          if (x.name == username && x.pass != password) {
-            div.innerHTML = '<p style="color:red;"> Wrong password !</p>';
+            div.innerHTML = '<p style="color:red;"><br> Wrong password !</p>';
             return; 
         }
         }
