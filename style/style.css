@@ -178,7 +178,8 @@ a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #38d39f;
+    font-size: 40px;
+    color: #07791a;
     background-image: url(".img/message.svg");    
 }
 @media screen and (max-width:1050px){
@@ -209,5 +210,15 @@ a:hover{
     }
     .login-container{
         justify-content: center;
+    }
+}
+@media screen and (max-width:900px){
+    #output{
+        position: absolute;
+        right: 58%;
+        left: 42%;
+        width: 150px;
+        height: 100px;
+        font-size: 25px;
     }
 }

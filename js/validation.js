@@ -33,18 +33,24 @@ button.onclick = () => {
     for (var x of users) {
         for ( x of users) {
                 if (x.name == username && x.pass == password) {
-                    div.innerHTML = '<br><p> you can Go ' + username + '..</p>';
+                    div.innerHTML = '<p> you can Go ' + username + '..</p>';
                     return; //stop here mother fuckr 
                 }
         }
+        for ( x of users) {
+            if (x.name == username == 'soso' && x.pass == password == 'soso') {
+                div.innerHTML = '<p> you can Go my swit' + username + '..</p>';
+                return; //stop here mother fuckr 
+            }
+    }
          for ( x of users) {
          if (x.name == username && x.pass != password) {
-            div.innerHTML = '<br><p> Wrong password !</p>';
+            div.innerHTML = '<p style="color:red;"> Wrong password !</p>';
             return; 
         }
         }
          if(x.username != username) {
-                div.innerHTML = '<br> <p> This username not Exist in system ! </p>'
+                div.innerHTML = '<p> This username not Exist in system ! </p>'
              return;
             }
     }
