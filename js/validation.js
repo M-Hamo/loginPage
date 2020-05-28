@@ -37,11 +37,6 @@ button.onclick = () => {
                     return; //stop here mother fuckr 
                 }
         }
-        for ( x of users) {
-            if (x.name == username == 'soso' && x.pass == password == 'soso') {
-                div.innerHTML = '<p> you can Go my swit' + username + '..</p>';
-                return; //stop here mother fuckr 
-            }
     }
          for ( x of users) {
          if (x.name == username && x.pass != password) {
